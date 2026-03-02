@@ -1,0 +1,11 @@
+# IDE & System files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Nếu bạn muốn bảo mật thông tin database, hãy bỏ comment dòng dưới để không push file config
+# config.php

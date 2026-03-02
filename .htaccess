@@ -1,0 +1,8 @@
+# support pretty URLs if you want
+
+RewriteEngine On
+
+# redirect all requests to index.php, except existing files/directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
